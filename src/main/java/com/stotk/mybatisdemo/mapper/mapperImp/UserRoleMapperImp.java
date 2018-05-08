@@ -3,5 +3,5 @@ package com.stotk.mybatisdemo.mapper.mapperImp;
 /**
  *
  */
-public interface RoleMapper {
+public interface UserRoleMapperImp {
 }

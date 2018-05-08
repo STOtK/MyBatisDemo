@@ -12,6 +12,8 @@ public class SysRole {
     public long createBy;
     public Date createTime;
 
+    private SysUser sysUser;
+
     public long getId() {
         return id;
     }
