@@ -34,7 +34,7 @@ public class BaseMapper {
     public void testSelectAll() {
         SqlSession sqlSession = sqlSessionFactory.openSession();
         try {
-            List<SysUser> countries = sqlSession.selectList("com.stotk.mybatisdemo.mapper.UserMapper.selectAll");
+            List<SysUser> countries = sqlSession.selectList("com.stotk.mybatisdemo.mapper.mapperImp.UserMapper.selectAll");
             printCountryList(countries);
         } finally {
             sqlSession.close();
