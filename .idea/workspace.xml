@@ -2,27 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3da5e87b-631a-4b5e-b36b-cf96522af75d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/mapper/mapperImp/CountryMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/mapper/mapperImp/PrivilegeMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/mapper/mapperImp/RoleMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/mapper/mapperImp/RolePrivilegeMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/mapper/mapperImp/UserMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/mapper/mapperImp/UserRoleMapper.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/mapper/BaseMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/mapper/BaseMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/model/SysRole.java" afterPath="$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/model/SysRole.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/CountryMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/CountryMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/PrivilegeMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/PrivilegeMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/RoleMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/RoleMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/RolePrivilegeMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/RolePrivilegeMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/mapper/UserMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/mapper/UserMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/mapper/mapperImp/UserMapperImp.java" afterPath="$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/mapper/mapperImp/UserMapperImp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserRoleMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserRoleMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/CountryMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/CountryMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/PrivilegeMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/PrivilegeMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/RoleMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/RoleMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/RolePrivilegeMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/RolePrivilegeMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/UserRoleMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/UserRoleMapper.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,8 +21,8 @@
       <file leaf-file-name="UserMapper.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/mapper/UserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="103" column="43" lean-forward="true" selection-start-line="103" selection-start-column="43" selection-end-line="103" selection-end-column="43" />
+            <state relative-caret-position="452">
+              <caret line="112" column="9" lean-forward="true" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,8 +67,8 @@
       <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            <state relative-caret-position="518">
+              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -94,8 +77,8 @@
       <file leaf-file-name="UserMapperImp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/mapper/mapperImp/UserMapperImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+            <state relative-caret-position="760">
+              <caret line="70" column="13" lean-forward="false" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;method#selectById#0;class#UserMapperImp#0" expanded="false" />
@@ -111,17 +94,18 @@
       <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="75" column="55" lean-forward="false" selection-start-line="75" selection-start-column="55" selection-end-line="75" selection-end-column="55" />
+            <state relative-caret-position="694">
+              <caret line="79" column="43" lean-forward="false" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="43" />
               <folding>
-                <marker date="1525781210065" expanded="true" signature="815:853" ph="SELECT * FRO... sys_user" />
-                <marker date="1525781210065" expanded="true" signature="952:1141" ph="SELECT id us... sys_user" />
-                <marker date="1525781210065" expanded="true" signature="1223:1672" ph="select r.id,... sys_user" />
-                <marker date="1525781210065" expanded="true" signature="1724:1937" ph="INSERT INTO sys_user... " />
-                <marker date="1525781210065" expanded="true" signature="2035:2326" ph="INSERT INTO sys_user... " />
-                <marker date="1525781210065" expanded="true" signature="2387:2654" ph="INSERT INTO sys_user... " />
-                <marker date="1525781210065" expanded="true" signature="2751:2774" ph="SELECT LAST_... " />
-                <marker date="1525781210065" expanded="true" signature="2871:3137" ph="UPDATE sys_u... " />
+                <marker date="1525782086790" expanded="true" signature="815:853" ph="SELECT * FRO... sys_user" />
+                <marker date="1525782086790" expanded="true" signature="952:1141" ph="SELECT id us... sys_user" />
+                <marker date="1525782086790" expanded="true" signature="1223:1672" ph="select r.id,... sys_user" />
+                <marker date="1525782086790" expanded="true" signature="1724:1937" ph="INSERT INTO sys_user... " />
+                <marker date="1525782086790" expanded="true" signature="2035:2326" ph="INSERT INTO sys_user... " />
+                <marker date="1525782086790" expanded="true" signature="2387:2654" ph="INSERT INTO sys_user... " />
+                <marker date="1525782086790" expanded="true" signature="2751:2774" ph="SELECT LAST_... " />
+                <marker date="1525782086790" expanded="true" signature="2871:3137" ph="UPDATE sys_u... " />
+                <marker date="1525782086790" expanded="true" signature="3189:3224" ph="DELETE FROM " />
               </folding>
             </state>
           </provider>
@@ -176,10 +160,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/mapper/CountryMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/mapper/mapperImp/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/model/SysRole.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/mapper/mapperImp/UserMapperImp.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/mapper/mapperImp/UserMapperImp.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/mapper/UserMapper.java" />
       </list>
     </option>
   </component>
@@ -313,7 +297,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserMapper.updateUser">
+  <component name="RunManager" selected="JUnit.UserMapper.deleteById">
     <configuration name="UserMapper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -339,6 +323,31 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="UserMapper.deleteById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.stotk.mybatisdemo.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="MyBatisDemo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.stotk.mybatisdemo.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.stotk.mybatisdemo.mapper.UserMapper" />
+      <option name="METHOD_NAME" value="deleteById" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="UserMapper.insertUserIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -352,31 +361,6 @@
       <option name="PACKAGE_NAME" value="com.stotk.mybatisdemo.mapper" />
       <option name="MAIN_CLASS_NAME" value="com.stotk.mybatisdemo.mapper.UserMapper" />
       <option name="METHOD_NAME" value="insertUserIndex" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="UserMapper.selectRolesByUserId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.stotk.mybatisdemo.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="MyBatisDemo" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.stotk.mybatisdemo.mapper" />
-      <option name="MAIN_CLASS_NAME" value="com.stotk.mybatisdemo.mapper.UserMapper" />
-      <option name="METHOD_NAME" value="selectRolesByUserId" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -520,19 +504,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.UserMapper.selectRolesByUserId" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.UserMapper" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.UserMapper.insertUserIndex" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.UserMapper.updateUser" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.UserMapper.testSelectById" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.UserMapper" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.UserMapper.insertUserIndex" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.UserMapper.updateUser" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.UserMapper.testSelectById" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.UserMapper.deleteById" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.UserMapper.updateUser" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.UserMapper.testSelectById" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.UserMapper.insertUserIndex" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.UserMapper" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.UserMapper.selectRolesByUserId" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.UserMapper.deleteById" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UserMapper.updateUser" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.UserMapper.testSelectById" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.UserMapper.insertUserIndex" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.UserMapper" />
       </list>
     </recent_temporary>
   </component>
@@ -552,34 +536,19 @@
       <option name="presentableId" value="Default" />
       <updated>1525659389569</updated>
       <workItem from="1525659392702" duration="37831000" />
-      <workItem from="1525772184435" duration="5770000" />
+      <workItem from="1525772184435" duration="7127000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserMapper_updateUser - 2018.05.08 at 19h 24m 38s.xml">
-      <configuration name="UserMapper.updateUser" configurationId="JUnit" />
+    <history-entry file="UserMapper_deleteById - 2018.05.08 at 20h 27m 25s.xml">
+      <configuration name="UserMapper.deleteById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserMapper_updateUser - 2018.05.08 at 19h 39m 22s.xml">
-      <configuration name="UserMapper.updateUser" configurationId="JUnit" />
+    <history-entry file="UserMapper_deleteById - 2018.05.08 at 20h 27m 38s.xml">
+      <configuration name="UserMapper.deleteById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserMapper_updateUser - 2018.05.08 at 20h 00m 20s.xml">
-      <configuration name="UserMapper.updateUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserMapper_updateUser - 2018.05.08 at 20h 01m 09s.xml">
-      <configuration name="UserMapper.updateUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserMapper_updateUser - 2018.05.08 at 20h 02m 08s.xml">
-      <configuration name="UserMapper.updateUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserMapper_updateUser - 2018.05.08 at 20h 02m 32s.xml">
-      <configuration name="UserMapper.updateUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserMapper_updateUser - 2018.05.08 at 20h 04m 00s.xml">
-      <configuration name="UserMapper.updateUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserMapper_updateUser - 2018.05.08 at 20h 04m 38s.xml">
-      <configuration name="UserMapper.updateUser" configurationId="JUnit" />
+    <history-entry file="UserMapper_testSelectById - 2018.05.08 at 20h 27m 30s.xml">
+      <configuration name="UserMapper.testSelectById" configurationId="JUnit" />
     </history-entry>
     <history-entry file="UserMapper_updateUser - 2018.05.08 at 20h 06m 15s.xml">
       <configuration name="UserMapper.updateUser" configurationId="JUnit" />
@@ -587,9 +556,24 @@
     <history-entry file="UserMapper_updateUser - 2018.05.08 at 20h 06m 56s.xml">
       <configuration name="UserMapper.updateUser" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserMapper_updateUser - 2018.05.08 at 20h 16m 17s.xml">
+      <configuration name="UserMapper.updateUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapper_updateUser - 2018.05.08 at 20h 16m 41s.xml">
+      <configuration name="UserMapper.updateUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapper_updateUser - 2018.05.08 at 20h 17m 07s.xml">
+      <configuration name="UserMapper.updateUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapper_updateUser - 2018.05.08 at 20h 17m 37s.xml">
+      <configuration name="UserMapper.updateUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapper_updateUser - 2018.05.08 at 20h 18m 35s.xml">
+      <configuration name="UserMapper.updateUser" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43601000" />
+    <option name="totallyTimeSpent" value="44958000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -603,7 +587,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -699,14 +683,15 @@
         <state relative-caret-position="1496">
           <caret line="68" column="17" lean-forward="false" selection-start-line="56" selection-start-column="8" selection-end-line="68" selection-end-column="17" />
           <folding>
-            <marker date="1525781210065" expanded="true" signature="815:853" ph="SELECT * FRO... sys_user" />
-            <marker date="1525781210065" expanded="true" signature="952:1141" ph="SELECT id us... sys_user" />
-            <marker date="1525781210065" expanded="true" signature="1223:1672" ph="select r.id,... sys_user" />
-            <marker date="1525781210065" expanded="true" signature="1724:1937" ph="INSERT INTO sys_user... " />
-            <marker date="1525781210065" expanded="true" signature="2035:2326" ph="INSERT INTO sys_user... " />
-            <marker date="1525781210065" expanded="true" signature="2387:2654" ph="INSERT INTO sys_user... " />
-            <marker date="1525781210065" expanded="true" signature="2751:2774" ph="SELECT LAST_... " />
-            <marker date="1525781210065" expanded="true" signature="2871:3137" ph="UPDATE sys_u... " />
+            <marker date="1525782086790" expanded="true" signature="815:853" ph="SELECT * FRO... sys_user" />
+            <marker date="1525782086790" expanded="true" signature="952:1141" ph="SELECT id us... sys_user" />
+            <marker date="1525782086790" expanded="true" signature="1223:1672" ph="select r.id,... sys_user" />
+            <marker date="1525782086790" expanded="true" signature="1724:1937" ph="INSERT INTO sys_user... " />
+            <marker date="1525782086790" expanded="true" signature="2035:2326" ph="INSERT INTO sys_user... " />
+            <marker date="1525782086790" expanded="true" signature="2387:2654" ph="INSERT INTO sys_user... " />
+            <marker date="1525782086790" expanded="true" signature="2751:2774" ph="SELECT LAST_... " />
+            <marker date="1525782086790" expanded="true" signature="2871:3137" ph="UPDATE sys_u... " />
+            <marker date="1525782086790" expanded="true" signature="3189:3224" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -932,6 +917,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="754" column="0" lean-forward="false" selection-start-line="754" selection-start-column="0" selection-end-line="754" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -971,10 +957,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/mapper/mapperImp/UserMapperImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        <state relative-caret-position="760">
+          <caret line="70" column="13" lean-forward="false" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#selectById#0;class#UserMapperImp#0" expanded="false" />
@@ -986,43 +988,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="75" column="55" lean-forward="false" selection-start-line="75" selection-start-column="55" selection-end-line="75" selection-end-column="55" />
+        <state relative-caret-position="694">
+          <caret line="79" column="43" lean-forward="false" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="43" />
           <folding>
-            <marker date="1525781210065" expanded="true" signature="815:853" ph="SELECT * FRO... sys_user" />
-            <marker date="1525781210065" expanded="true" signature="952:1141" ph="SELECT id us... sys_user" />
-            <marker date="1525781210065" expanded="true" signature="1223:1672" ph="select r.id,... sys_user" />
-            <marker date="1525781210065" expanded="true" signature="1724:1937" ph="INSERT INTO sys_user... " />
-            <marker date="1525781210065" expanded="true" signature="2035:2326" ph="INSERT INTO sys_user... " />
-            <marker date="1525781210065" expanded="true" signature="2387:2654" ph="INSERT INTO sys_user... " />
-            <marker date="1525781210065" expanded="true" signature="2751:2774" ph="SELECT LAST_... " />
-            <marker date="1525781210065" expanded="true" signature="2871:3137" ph="UPDATE sys_u... " />
+            <marker date="1525782086790" expanded="true" signature="815:853" ph="SELECT * FRO... sys_user" />
+            <marker date="1525782086790" expanded="true" signature="952:1141" ph="SELECT id us... sys_user" />
+            <marker date="1525782086790" expanded="true" signature="1223:1672" ph="select r.id,... sys_user" />
+            <marker date="1525782086790" expanded="true" signature="1724:1937" ph="INSERT INTO sys_user... " />
+            <marker date="1525782086790" expanded="true" signature="2035:2326" ph="INSERT INTO sys_user... " />
+            <marker date="1525782086790" expanded="true" signature="2387:2654" ph="INSERT INTO sys_user... " />
+            <marker date="1525782086790" expanded="true" signature="2751:2774" ph="SELECT LAST_... " />
+            <marker date="1525782086790" expanded="true" signature="2871:3137" ph="UPDATE sys_u... " />
+            <marker date="1525782086790" expanded="true" signature="3189:3224" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/mapper/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="103" column="43" lean-forward="true" selection-start-line="103" selection-start-column="43" selection-end-line="103" selection-end-column="43" />
+        <state relative-caret-position="452">
+          <caret line="112" column="9" lean-forward="true" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

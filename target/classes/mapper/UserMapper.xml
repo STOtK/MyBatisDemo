@@ -76,4 +76,7 @@
             create_time=#{createTime,jdbcType=TIMESTAMP}
         WHERE id=#{id}
     </update>
+    <delete id="deleteById">
+        DELETE FROM sys_user WHERE id=#{id}
+    </delete>
 </mapper>
