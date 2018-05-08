@@ -5,6 +5,8 @@
 <configuration>
     <settings>
         <setting name="logImpl" value="LOG4J"/>
+        <!--使用下面这种方式，可以自动将下划线方式命名的数据库映射到java对象的驼峰式命名属性中-->
+        <!--<setting name="mapUnderscoreToCamelCase" value="true"/>-->
     </settings>
 
     <!--配置一个包的别名，通常使用一个类是需要使用类的全限定名称，配置了改配置后，就不需要了-->
@@ -27,7 +29,16 @@
     </environments>
 
     <mappers>
+        <!--也可以使用全局配置，如：
+        <mapper resource="mapper"/>
+        整个mapper包下面的xml文件都会映射对应的Mapper接口
+        -->
         <mapper resource="mapper/CountryMapper.xml"/>
+        <mapper resource="mapper/PrivilegeMapper.xml"/>
+        <mapper resource="mapper/RoleMapper.xml"/>
+        <mapper resource="mapper/RolePrivilegeMapper.xml"/>
+        <mapper resource="mapper/UserMapper.xml"/>
+        <mapper resource="mapper/UserRoleMapper.xml"/>
     </mappers>
 
 </configuration>
