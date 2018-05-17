@@ -3,6 +3,7 @@ package com.stotk.mybatisdemo.mapper;
 import com.stotk.mybatisdemo.mapper.mapperImp.UserMapperImp;
 import com.stotk.mybatisdemo.model.SysRole;
 import com.stotk.mybatisdemo.model.SysUser;
+import org.apache.ibatis.annotations.Options;
 import org.apache.ibatis.session.SqlSession;
 import org.junit.Assert;
 import org.junit.Test;
@@ -142,4 +143,46 @@ public class UserMapper extends BaseMapper {
             sqlSession.close();
         }
     }
+
+    @Test
+    public void selectUserByIf() {
+        try {
+            UserMapperImp userMapper = sqlSession.getMapper(UserMapperImp.class);
+            SysUser sysUser = new SysUser();
+            sysUser.setUserName("test");
+            List<SysUser> sysUserList = userMapper.selectUserByIf(sysUser);
+            Assert.assertTrue(sysUserList.size() > 0);
+            sysUser = new SysUser();
+            sysUser.setUserEmail("admin@mybatis.tk");
+            sysUserList = userMapper.selectUserByIf(sysUser);
+            Assert.assertTrue(sysUserList.size() > 0);
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            sqlSession.close();
+        }
+    }
+
+    @Test
+    public void updateByIdSelective() {
+        try {
+            UserMapperImp userMapper = sqlSession.getMapper(UserMapperImp.class);
+            SysUser sysUser = new SysUser();
+            sysUser.setId(1L);
+            sysUser.setUserName("test");
+            int result = userMapper.updateByIdSelective(sysUser);
+            Assert.assertEquals(1, result);
+            sysUser = userMapper.selectById(1L);
+            Assert.assertEquals("test", sysUser.getUserName());
+            Assert.assertEquals("admin@mybatis.tk", sysUser.getUserEmail());
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            sqlSession.close();
+        }
+    }
+
+    //insert方法相同
+
+    
 }

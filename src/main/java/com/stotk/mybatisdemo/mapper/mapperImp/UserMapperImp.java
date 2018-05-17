@@ -84,4 +84,20 @@ public interface UserMapperImp {
      * @return
      */
     List<SysRole> selectRolesByUserIdAndRoleEnabled(@Param("id") Long id, @Param("enabled") Integer enabled);
+
+    /**
+     * 根据动态条件查询用户信息
+     *
+     * @param sysUser
+     * @return
+     */
+    List<SysUser> selectUserByIf(SysUser sysUser);
+
+    /**
+     * 根据动态条件更新用户数据
+     *
+     * @param sysUser
+     * @return
+     */
+    int updateByIdSelective(SysUser sysUser);
 }
