@@ -2,6 +2,7 @@ package com.stotk.mybatisdemo.mapper.mapperImp;
 
 import com.stotk.mybatisdemo.model.SysRole;
 import com.stotk.mybatisdemo.model.SysUser;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -69,8 +70,18 @@ public interface UserMapperImp {
 
     /**
      * 通过主键删除
+     *
      * @param id
      * @return
      */
     int deleteById(long id);
+
+    /**
+     * 根据用户id 和角色的enabled 状态获取用户的角色
+     *
+     * @param id
+     * @param enabled
+     * @return
+     */
+    List<SysRole> selectRolesByUserIdAndRoleEnabled(@Param("id") Long id, @Param("enabled") Integer enabled);
 }
