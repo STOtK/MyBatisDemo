@@ -16,7 +16,7 @@
         SELECT * FROM sys_user WHERE id =#{id}
     </select>
     <!--考虑性能方面，通常会指定查询列-->
-    <select id="selectAll" resultType="SysUser">
+    <select id="selectAll" resultMap="userMap">
         SELECT id,
          user_name userName,
          user_password userPassword,
