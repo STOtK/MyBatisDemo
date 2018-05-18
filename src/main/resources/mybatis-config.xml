@@ -9,6 +9,9 @@
         <!--<setting name="mapUnderscoreToCamelCase" value="true"/>-->
     </settings>
 
+    <!--多数据库支持-->
+    <!--<databaseIdProvider type ="DB VENDOR"></databaseIdProvider>-->
+
     <!--配置一个包的别名，通常使用一个类是需要使用类的全限定名称，配置了改配置后，就不需要了-->
     <typeAliases>
         <package name="com.stotk.mybatisdemo.model"/>

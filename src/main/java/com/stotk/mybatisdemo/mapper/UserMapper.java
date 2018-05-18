@@ -151,7 +151,7 @@ public class UserMapper extends BaseMapper {
         try {
             UserMapperImp userMapper = sqlSession.getMapper(UserMapperImp.class);
             SysUser sysUser = new SysUser();
-            sysUser.setUserName("test");
+            sysUser.setUserName("admin");
             List<SysUser> sysUserList = userMapper.selectUserByIf(sysUser);
             Assert.assertTrue(sysUserList.size() > 0);
             sysUser = new SysUser();
