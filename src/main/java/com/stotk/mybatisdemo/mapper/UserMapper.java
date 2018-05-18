@@ -8,8 +8,7 @@ import org.apache.ibatis.session.SqlSession;
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 
 /**
  *
@@ -144,6 +143,9 @@ public class UserMapper extends BaseMapper {
         }
     }
 
+    /**
+     * <where></where> 标签更为合理
+     */
     @Test
     public void selectUserByIf() {
         try {
@@ -184,5 +186,84 @@ public class UserMapper extends BaseMapper {
 
     //insert方法相同
 
-    
+    /**
+     * 每次只有有一个非空属性值
+     */
+    @Test
+    public void selectByIdOrUserName() {
+        try {
+            UserMapperImp userMapper = sqlSession.getMapper(UserMapperImp.class);
+            SysUser sysUser = new SysUser();
+            //sysUser.setId(0L);
+            sysUser.setUserName("admin");
+            sysUser.setUserEmail("admin@mybatis.tk");
+            SysUser user = userMapper.selectByIdOrUserName(sysUser);
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            sqlSession.close();
+        }
+    }
+
+    /**
+     * foreach() 实现批量查询
+     */
+    @Test
+    public void selectByIdList() {
+        try {
+            UserMapperImp userMapper = sqlSession.getMapper(UserMapperImp.class);
+            List<Long> list = new ArrayList<Long>();
+            list.add(1L);
+            list.add(1001L);
+            List<SysUser> sysUserList = userMapper.selectByIdList(list);
+            Assert.assertEquals(2, sysUserList.size());
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            sqlSession.close();
+        }
+    }
+
+    @Test
+    public void insertSysUserList() {
+        try {
+            UserMapperImp userMapper = sqlSession.getMapper(UserMapperImp.class);
+            List<SysUser> userList = new ArrayList<SysUser>();
+            for (int i = 0; i < 2; i++) {
+                SysUser user = new SysUser();
+                user.setUserName("test" + i);
+                user.setUserPassword("123456");
+                user.setUserEmail("test@mybatis.tk");
+                userList.add(user);
+            }
+            int result = userMapper.insertSysUserList(userList);
+            Assert.assertEquals(2, result);
+            for (SysUser item : userList) {
+                System.out.println(item.getId());
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            sqlSession.rollback();
+            sqlSession.close();
+        }
+    }
+
+    @Test
+    public void updateByMap() {
+        try {
+            UserMapperImp userMapper = sqlSession.getMapper(UserMapperImp.class);
+            Map<String, Object> map = new HashMap<String, Object>();
+            map.put("id", 1L);
+            map.put("user_email", "test@mybatis.tk");
+            map.put("user_password", "12345678");
+            userMapper.updateByMap(map);
+            SysUser user = userMapper.selectById(1L);
+            Assert.assertEquals("test@mybatis.tk", user.getUserEmail());
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            sqlSession.close();
+        }
+    }
 }

@@ -5,6 +5,7 @@ import com.stotk.mybatisdemo.model.SysUser;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  *
@@ -100,4 +101,36 @@ public interface UserMapperImp {
      * @return
      */
     int updateByIdSelective(SysUser sysUser);
+
+    /**
+     * 根据动态条件查询用户数据
+     *
+     * @param sysUser
+     * @return
+     */
+    SysUser selectByIdOrUserName(SysUser sysUser);
+
+    /**
+     * 根据用户id集合查询
+     *
+     * @param idList
+     * @return
+     */
+    List<SysUser> selectByIdList(List<Long> idList);
+
+    /**
+     * foreach 批量插入数据
+     *
+     * @param sysUserList
+     * @return
+     */
+    int insertSysUserList(List<SysUser> sysUserList);
+
+    /**
+     * 通过map更新
+     *
+     * @param map
+     * @return
+     */
+    int updateByMap(Map<String, Object> map);
 }
