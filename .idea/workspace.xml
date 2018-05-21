@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3da5e87b-631a-4b5e-b36b-cf96522af75d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/utils/StringUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_1_3_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/generator/Generator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/mapper/UserMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/mapper/UserMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyBatisDemo.iml" afterPath="$PROJECT_DIR$/MyBatisDemo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,149 +19,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserMapper.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/mapper/UserMapper.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="155" column="36" lean-forward="false" selection-start-line="155" selection-start-column="36" selection-end-line="155" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#7126#7132#0" expanded="true" />
-                <element signature="e#7648#7657#0" expanded="true" />
-                <element signature="e#8520#8536#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RolePrivilegeMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/RolePrivilegeMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="67" lean-forward="false" selection-start-line="4" selection-start-column="67" selection-end-line="4" selection-end-column="67" />
+            <state relative-caret-position="408">
+              <caret line="56" column="32" lean-forward="false" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserRoleMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserRoleMapper.xml">
+      <file leaf-file-name="generatorConfig.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/generator/generatorConfig.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+            <state relative-caret-position="506">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="98" column="67" lean-forward="false" selection-start-line="98" selection-start-column="67" selection-end-line="98" selection-end-column="67" />
-              <folding>
-                <marker date="1526635212567" expanded="true" signature="815:853" ph="SELECT * FRO... sys_user" />
-                <marker date="1526635212567" expanded="true" signature="951:1140" ph="SELECT id us... sys_user" />
-                <marker date="1526635212567" expanded="true" signature="1222:1671" ph="select r.id,... sys_user" />
-                <marker date="1526635212567" expanded="true" signature="1723:1936" ph="INSERT INTO sys_user... " />
-                <marker date="1526635212567" expanded="true" signature="2034:2325" ph="INSERT INTO sys_user... " />
-                <marker date="1526635212567" expanded="true" signature="2386:2653" ph="INSERT INTO sys_user... " />
-                <marker date="1526635212567" expanded="true" signature="2750:2773" ph="SELECT LAST_... " />
-                <marker date="1526635212567" expanded="true" signature="2870:3136" ph="UPDATE sys_u... " />
-                <marker date="1526635212567" expanded="true" signature="3188:3223" ph="DELETE FROM " />
-                <marker date="1526635212567" expanded="true" signature="3319:3583" ph="SELECT r.id,... sys_user" />
-                <marker date="1526635212567" expanded="true" signature="3661:3853" ph="SELECT id, u... sys_user" />
-                <marker date="1526635212567" expanded="true" signature="4306:5128" ph="update sys_u... " />
-                <marker date="1526635212567" expanded="true" signature="5235:5309" ph="SELECT id, u... " />
-                <marker date="1526635212567" expanded="true" signature="5995:6209" ph="SELECT id, u... sys_user" />
-                <marker date="1526635212567" expanded="true" signature="5995:6336" ph="SELECT id, u... sys_user" />
-                <marker date="1526635212567" expanded="true" signature="5995:6362" ph="SELECT id, u... sys_user" />
-                <marker date="1526635212567" expanded="true" signature="6455:6557" ph="insert into sys_user... " />
-                <marker date="1526635212567" expanded="true" signature="6455:6774" ph="insert into sys_user... " />
-                <marker date="1526635212567" expanded="true" signature="6862:6889" ph="UPDATE sys_u... " />
-                <marker date="1526635212567" expanded="true" signature="6862:7038" ph="UPDATE sys_u... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoleMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/RoleMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="35" column="35" lean-forward="true" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/utils/StringUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-              <folding>
-                <element signature="e#122#123#0" expanded="true" />
-                <element signature="e#177#178#0" expanded="true" />
-                <element signature="e#229#230#0" expanded="true" />
-                <element signature="e#265#266#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PrivilegeMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/PrivilegeMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="63" lean-forward="false" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SysUser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/model/SysUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserMapperImp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/mapper/mapperImp/UserMapperImp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="136" column="0" lean-forward="true" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
-              <folding>
-                <element signature="docComment;method#selectById#0;class#UserMapperImp#0" expanded="false" />
-                <element signature="docComment;method#selectAll#0;class#UserMapperImp#0" expanded="false" />
-                <element signature="docComment;method#selectRolesByUserId#0;class#UserMapperImp#0" expanded="false" />
-                <element signature="docComment;method#insertUser#0;class#UserMapperImp#0" expanded="false" />
-                <element signature="docComment;method#insertUserIndex#0;class#UserMapperImp#0" expanded="false" />
-                <element signature="docComment;method#insertUserReturnKey#0;class#UserMapperImp#0" expanded="false" />
-                <element signature="docComment;method#updateById#0;class#UserMapperImp#0" expanded="false" />
-                <element signature="docComment;method#deleteById#0;class#UserMapperImp#0" expanded="false" />
-                <element signature="docComment;method#selectRolesByUserIdAndRoleEnabled#0;class#UserMapperImp#0" expanded="false" />
-                <element signature="docComment;method#selectUserByIf#0;class#UserMapperImp#0" expanded="false" />
-                <element signature="docComment;method#updateByIdSelective#0;class#UserMapperImp#0" expanded="false" />
-                <element signature="docComment;method#selectByIdOrUserName#0;class#UserMapperImp#0" expanded="false" />
-                <element signature="docComment;method#selectByIdList#0;class#UserMapperImp#0" expanded="false" />
-                <element signature="docComment;method#insertSysUserList#0;class#UserMapperImp#0" expanded="false" />
-                <element signature="docComment;method#updateByMap#0;class#UserMapperImp#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -222,7 +94,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/mapper/CountryMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/mapper/mapperImp/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/model/SysRole.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/mapper/RoleMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/mapper/mapperImp/RoleMapperImp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/mapper/provider/ProviderMapper.java" />
@@ -235,6 +106,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/utils/StringUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/generator/Generator.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -245,7 +119,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="960" />
+    <option name="x" value="-1" />
+    <option name="y" value="5" />
     <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
@@ -307,45 +182,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mybatisdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatisdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyBatisDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatisdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="mapperImp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatisdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyBatisDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatisdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="provider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatisdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyBatisDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatisdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatisdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyBatisDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatisdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="generator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mybatisdemo" type="b2602c69:ProjectViewProjectNode" />
@@ -353,6 +190,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyBatisDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="generator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mybatisdemo" type="b2602c69:ProjectViewProjectNode" />
@@ -376,7 +221,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../mybatis-3/mybatis-3-master/pom.xml" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace_git\workspaces\MyBatisDemo\src\main\resources\generator" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace_git\workspaces\MyBatisDemo\src\main\resources\generator" />
       <recent name="D:\workspace_git\workspaces\MyBatisDemo" />
     </key>
   </component>
@@ -632,7 +481,7 @@
       <updated>1525659389569</updated>
       <workItem from="1525659392702" duration="37831000" />
       <workItem from="1525772184435" duration="9522000" />
-      <workItem from="1526001393854" duration="61364000" />
+      <workItem from="1526001393854" duration="77041000" />
     </task>
     <servers />
   </component>
@@ -669,7 +518,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108717000" />
+    <option name="totallyTimeSpent" value="124394000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -693,7 +542,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35543478" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35543478" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -756,53 +605,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/mapper/mapperImp/UserMapperImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="59" column="47" lean-forward="true" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="docComment;method#selectById#0;class#UserMapperImp#0" expanded="false" />
-            <element signature="docComment;method#selectAll#0;class#UserMapperImp#0" expanded="false" />
-            <element signature="docComment;method#selectRolesByUserId#0;class#UserMapperImp#0" expanded="false" />
-            <element signature="docComment;method#insertUser#0;class#UserMapperImp#0" expanded="false" />
-            <element signature="docComment;method#insertUserIndex#0;class#UserMapperImp#0" expanded="false" />
-            <element signature="docComment;method#insertUserReturnKey#0;class#UserMapperImp#0" expanded="false" />
-            <element signature="docComment;method#updateById#0;class#UserMapperImp#0" expanded="false" />
-            <element signature="docComment;method#deleteById#0;class#UserMapperImp#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="68" column="17" lean-forward="false" selection-start-line="56" selection-start-column="8" selection-end-line="68" selection-end-column="17" />
-          <folding>
-            <marker date="1526635212567" expanded="true" signature="815:853" ph="SELECT * FRO... sys_user" />
-            <marker date="1526635212567" expanded="true" signature="951:1140" ph="SELECT id us... sys_user" />
-            <marker date="1526635212567" expanded="true" signature="1222:1671" ph="select r.id,... sys_user" />
-            <marker date="1526635212567" expanded="true" signature="1723:1936" ph="INSERT INTO sys_user... " />
-            <marker date="1526635212567" expanded="true" signature="2034:2325" ph="INSERT INTO sys_user... " />
-            <marker date="1526635212567" expanded="true" signature="2386:2653" ph="INSERT INTO sys_user... " />
-            <marker date="1526635212567" expanded="true" signature="2750:2773" ph="SELECT LAST_... " />
-            <marker date="1526635212567" expanded="true" signature="2870:3136" ph="UPDATE sys_u... " />
-            <marker date="1526635212567" expanded="true" signature="3188:3223" ph="DELETE FROM " />
-            <marker date="1526635212567" expanded="true" signature="3319:3583" ph="SELECT r.id,... sys_user" />
-            <marker date="1526635212567" expanded="true" signature="3661:3853" ph="SELECT id, u... sys_user" />
-            <marker date="1526635212567" expanded="true" signature="4306:5128" ph="update sys_u... " />
-            <marker date="1526635212567" expanded="true" signature="5235:5309" ph="SELECT id, u... " />
-            <marker date="1526635212567" expanded="true" signature="5995:6209" ph="SELECT id, u... sys_user" />
-            <marker date="1526635212567" expanded="true" signature="5995:6336" ph="SELECT id, u... sys_user" />
-            <marker date="1526635212567" expanded="true" signature="5995:6362" ph="SELECT id, u... sys_user" />
-            <marker date="1526635212567" expanded="true" signature="6455:6557" ph="insert into sys_user... " />
-            <marker date="1526635212567" expanded="true" signature="6455:6774" ph="insert into sys_user... " />
-            <marker date="1526635212567" expanded="true" signature="6862:6889" ph="UPDATE sys_u... " />
-            <marker date="1526635212567" expanded="true" signature="6862:7038" ph="UPDATE sys_u... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyBatisDemo.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -942,14 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="622">
           <caret line="64" column="10" lean-forward="false" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1140,14 +934,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/RoleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/PrivilegeMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -1175,7 +961,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/mapper/mapperImp/UserMapperImp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
-          <caret line="136" column="0" lean-forward="true" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+          <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
           <folding>
             <element signature="docComment;method#selectById#0;class#UserMapperImp#0" expanded="false" />
             <element signature="docComment;method#selectAll#0;class#UserMapperImp#0" expanded="false" />
@@ -1196,14 +982,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="35" column="35" lean-forward="true" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/utils/StringUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -1217,9 +995,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="264" column="19" lean-forward="false" selection-start-line="264" selection-start-column="19" selection-end-line="264" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#7126#7132#0" expanded="true" />
+            <element signature="e#7648#7657#0" expanded="true" />
+            <element signature="e#8520#8536#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="572">
           <caret line="98" column="67" lean-forward="false" selection-start-line="98" selection-start-column="67" selection-end-line="98" selection-end-column="67" />
           <folding>
             <marker date="1526635212567" expanded="true" signature="815:853" ph="SELECT * FRO... sys_user" />
@@ -1246,16 +1045,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/mapper/UserMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stotk/mybatisdemo/generator/Generator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="155" column="36" lean-forward="false" selection-start-line="155" selection-start-column="36" selection-end-line="155" selection-end-column="36" />
+        <state relative-caret-position="584">
+          <caret line="36" column="23" lean-forward="false" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#7126#7132#0" expanded="true" />
-            <element signature="e#7648#7657#0" expanded="true" />
-            <element signature="e#8520#8536#0" expanded="true" />
+            <element signature="e#695#703#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/RoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generator/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="56" column="32" lean-forward="false" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
