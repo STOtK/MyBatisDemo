@@ -42,6 +42,7 @@
         <mapper resource="mapper/RolePrivilegeMapper.xml"/>
         <mapper resource="mapper/UserMapper.xml"/>
         <mapper resource="mapper/UserRoleMapper.xml"/>
+        <mapper resource="generator/UserEntityMapper.xml"/>
     </mappers>
 
 </configuration>
